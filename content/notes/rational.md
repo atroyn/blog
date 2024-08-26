@@ -1,5 +1,6 @@
 ---
 title: "rational"
+date: 2024-06-30
 ---
 
 - people are on the whole insane, individually and collectively

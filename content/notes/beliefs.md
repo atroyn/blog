@@ -1,5 +1,6 @@
 ---
 title: "beliefs"
+date: 2024-08-26
 ---
 
 some beliefs:
