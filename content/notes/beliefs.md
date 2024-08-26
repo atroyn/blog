@@ -37,3 +37,5 @@ some beliefs:
 - human cognition is very weak relative to the complexity of the physical world
     - mathematics is far from universal
     - we have enormous gaps in our understanding of even basic, classical physical phenomena
+
+somewhat inspired by [nat friedman](nat.org)
