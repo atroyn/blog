@@ -11,3 +11,5 @@ title: "rational"
   - people will ratioanlize their decisions in terms of what incentives they believe led to their decision, but rarely can people describe which factors will influence their decision *in advance* 
   - often choices must be made among nearly identical options, and under these circumstances the decision however consequential is made essentially at random
 - you have spooks in your brain
+
+update (26.Aug.24): seems pareto came to the same conclusion in 'general sociology'; people are motivated by 'residues' but rationalize through 'derivations'
