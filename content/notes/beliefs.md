@@ -23,7 +23,7 @@ some beliefs:
   - people confuse fiction and reality all the time; e.g. most people's understanding of the second world war is from movies
     - by presenting historical events in the same medium as popular fiction, the events become fictionalized in people's minds
   - it's really easy to be delusional, thinking is hard
-  - peopel easily delude themselves into believing they're rational
+  - people easily delude themselves into believing they're rational
 
 - the 'low hanging fruit' hypothesis regarding scientific progress is obviously wrong
   - in every era of scientific progress, the 'low hanging fruit' are the easy problems that are solved first
