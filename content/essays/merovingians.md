@@ -17,7 +17,7 @@ This history built up along with it a rich set of [political formulas](https://a
 
 The depth of both the history and arguments for hereditary rule, which for so long seemed to be the natural state of affairs, obscures a crucial question in the study of power — *how did European royalty acquire it in the first place?* 
 
-The answers lie in the era known as Late **Antiquity; better known as the decline and fall of the Rome. Patrick Geary’s book, *[Before France & Germany](https://a.co/d/03gWj2Z): The Creation & Transformation of the Merovingian World,* is an excellent introduction to the period.
+The answers lie in the era known as Late Antiquity; better known as the decline and fall of the Rome. Patrick Geary’s book, *[Before France & Germany](https://a.co/d/03gWj2Z): The Creation & Transformation of the Merovingian World,* is an excellent introduction to the period.
 
 The [Merovingian](https://en.wikipedia.org/wiki/Merovingian_dynasty) dynasty constituted the first recognizably *European* —as opposed to Roman—hereditary royalty, consolidated under the ruthless reign of Clovis I. The course of Merovingian ascendancy is a case study in the acquisition of power in times of transition and turmoil. 
 
