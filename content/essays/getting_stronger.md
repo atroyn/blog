@@ -28,6 +28,6 @@ Being stronger reduces frictions that I’m not always aware of, which I believe
 
 I’m sore in most parts of my body, most of the time. My glutes in particular are victims of heavy squats performed deeply. They ache. The soreness is not entirely unpleasant, it’s another reminder of progress established by routine. It creates a pleasant physical tiredness at the end of the day that balances the mental exhaustion of knowledge work. 
 
-Though I’m the strongest I’ve ever been, I have friends and acquaintances who are even stronger than me. Often their physical strength is expressed in ways different from mine; more agile and acrobatic, more explosive. I wonder how this influences their experience of the world relative to mine, and relative to other people’s. I wonder what people who do pilates feel like. Circus arts. 
+Though I’m the strongest I’ve ever been, I have friends and acquaintances who are even stronger than me. Often their physical strength is expressed in ways different from mine; more agile and acrobatic, more explosive. I wonder how this influences their experience of the world relative to mine, and relative to other people’s. I wonder what people who do Pilates feel like. Circus arts. 
 
 I will keep getting stronger. I recommend that you do, too.
