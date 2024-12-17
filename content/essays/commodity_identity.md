@@ -1,7 +1,7 @@
 ---
 title: Commodity Identities
 thumbnail: warhol.jpeg
-featured: true
+featured: false
 ---
 
 Material goods have always existed as status symbols and class markers, for as long as class distinctions have existed. An extreme historical example being the downstream imitation of recovery from anal fistula surgery by the court and minor nobility of Versailles under the sun king. The relationship between status markers and material goods changed fundamentally with the advent of mass manufacturing.

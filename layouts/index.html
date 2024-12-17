@@ -1,70 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>  Only Forward </title>
-    <meta charset="utf-8">
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <title> Only Forward </title>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180"  href="/media/card.jpg"> 
-    <link rel="icon" type="image/png" sizes="32x32" href="/media/card.jpg"> 
-    <link rel="icon" type="image/png" sizes="16x16"  href="/media/card.jpg"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/media/card.jpg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/media/card.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/media/card.jpg">
 
-      <!-- Facebook Open Graph tags -->
-    <meta property="og:url" content="https://troynikov.io" />
-    <meta property="og:title" content="Anton" />
-    <meta property="og:description" content="{{ .Description }}" />
-    <meta property="og:image" content="https://troynikov.io/media/card.jpg" />
+  <!-- Facebook Open Graph tags -->
+  <meta property="og:url" content="https://troynikov.io" />
+  <meta property="og:title" content="Anton" />
+  <meta property="og:description" content="{{ .Description }}" />
+  <meta property="og:image" content="https://troynikov.io/media/card.jpg" />
 
-    <!-- Twitter Card (large image card) tags -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@atroyn">
-    <meta name="twitter:title" content="Anton">
-    <meta name="twitter:description" content="{{ .Description }}" />
-    <meta name="twitter:image" content="https://troynikov.io/media/card.jpg" />
+  <!-- Twitter Card (large image card) tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@atroyn">
+  <meta name="twitter:title" content="Anton">
+  <meta name="twitter:description" content="{{ .Description }}" />
+  <meta name="twitter:image" content="https://troynikov.io/media/card.jpg" />
 
-    <meta name="description" content="{{ .Description }}">
+  <meta name="description" content="{{ .Description }}">
 
-    {{ partial "home-styles.html" }}
+  {{ partial "home-styles.html" }}
 </head>
 
 <body>
 
- <div class=mobile-menu> 
-    <a href="/notes"> <div class=option> NOTES </div> </a>
-    <a href="/"> <div class=option> HOME </div> </a>
-    <a href="/essays"> <div class=option> ESSAYS </div> </a>
- </div>
-  
-<div class=holder>
+  <div class=mobile-menu>
+    <a href="/notes">
+      <div class=option> NOTES </div>
+    </a>
+    <a href="/">
+      <div class=option> HOME </div>
+    </a>
+    <a href="/essays">
+      <div class=option> ESSAYS </div>
+    </a>
+  </div>
 
-    <div class=photo> 
-      <img id=profile-img src=media/personal.jpg alt="Anton Troynikov"> 
+  <div class=holder>
+
+    <div class=photo>
+      <img id=profile-img src=media/personal.jpg alt="Anton Troynikov">
     </div>
 
     <div class=tabbed>
 
       <div class=text-holder>
         <div class=text>
-            <div id=website class=tab-content style="display: none;">
-                {{ with .GetPage "/website.md" }}
-                    {{ .Content | markdownify }}
-                {{ end }}
-            </div>
-            <div id=projects class=tab-content style="display: none;">
-                {{ with .GetPage "/projects.md" }}
-                    {{ .Content | markdownify }}
-                {{ end }}
-            </div>
-            <div id=personal class=tab-content>
-                {{ with .GetPage "/personal.md" }}
-                    {{ .Content | markdownify }}
-                {{ end }}
-            </div>
+          <div id=website class=tab-content style="display: none;">
+            {{ with .GetPage "/website.md" }}
+            {{ .Content | markdownify }}
+            {{ end }}
+          </div>
+          <div id=projects class=tab-content style="display: none;">
+            {{ with .GetPage "/projects.md" }}
+            {{ .Content | markdownify }}
+            {{ end }}
+          </div>
+          <div id=personal class=tab-content>
+            {{ with .GetPage "/personal.md" }}
+            {{ .Content | markdownify }}
+            {{ end }}
+          </div>
         </div>
       </div>
 
-      <div class=tabs> 
+      <div class=tabs>
         <button class=tab onclick="tabTo('personal')"> Personal </button>
         <button class=tab onclick="tabTo('projects')"> Projects </button>
         <button class=tab onclick="tabTo('website')"> Website </button>
@@ -76,16 +83,17 @@
 
     <div class=flex>
 
-        {{ range where .Site.RegularPages "Section" "essays" }}
-          {{ if .Params.featured }}
-            <div class=selected-post>
-                      <figure>
-                        <div class=wrapper> <a target="_blank" href="{{ .Permalink }}"> <img alt="{{ .Title }}" src="/media/essays/{{ .Params.thumbnail }}"> </a></div>
-                        <figcaption> <a href="{{ .Permalink }}">{{ .Title }}</a></figcaption>
-                      </figure>
-                </div>
-          {{ end }}
-        {{ end }}
+      {{ range where .Site.RegularPages "Section" "essays" }}
+      {{ if .Params.featured }}
+      <div class=selected-post>
+        <figure>
+          <div class=wrapper> <a target="_blank" href="{{ .Permalink }}"> <img alt="{{ .Title }}"
+                src="/media/essays/{{ .Params.thumbnail }}"> </a></div>
+          <figcaption> <a href="{{ .Permalink }}">{{ .Title }}</a></figcaption>
+        </figure>
+      </div>
+      {{ end }}
+      {{ end }}
     </div>
 
 
@@ -93,86 +101,92 @@
     <div class=second-holder>
 
 
-        <div class=note-list>
-          <table>
-            <thead> <th> id </th> <th> title </th> <th> length </th> <th> date </th></thead>
-            {{ range $index, $val := where $.Site.RegularPages "Section" "notes" }}
-                <tr>
-                    <td> {{ $index }} </td>
-                       <td> <a href="{{ .Permalink }}"> {{ .Title }} </a> </td>
-                    <td> {{ .WordCount }} </td>
-                    <td> {{.Date | time.Format ":date_short" }} 
-                </tr>
-            {{ end }}
+      <div class=note-list>
+        <table>
+          <thead>
+            <th> id </th>
+            <th> title </th>
+            <th> length </th>
+            <th> date </th>
+          </thead>
+          {{ range $index, $val := where $.Site.RegularPages "Section" "notes" }}
+          <tr>
+            <td> {{ $index }} </td>
+            <td> <a href="{{ .Permalink }}"> {{ .Title }} </a> </td>
+            <td> {{ .WordCount }} </td>
+            <td> {{.Date | time.Format ":date_short" }}
+          </tr>
+          {{ end }}
         </table>
         <div class=reverse style="width:95%; text-align: right; padding: 10px 2.5%">
-            <a href="/notes" style="display: block; width:100%">See all notes --></a> </div>
+          <a href="/notes" style="display: block; width:100%">See all notes --></a>
         </div>
+      </div>
 
-        
-        <div class=special id=special>
-            <span>1101100010101001010010001010011010010100100100101010100100111000011010</span>
-                <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
-                <span>1101100010101001010010001010011010010100100100101010100100111000011010</span>
-                <span class=fast>1011000101010010100100010100110100101001001001010101001001110000110101</span>
-                <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
-                <span>1101100010101001010010001010011010010100100100101010100100111000011010</span>
-                <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
-                <span>1011000101010010100100010100110100101001001001010101001001110000110100</span>
-                <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
-                <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
-                <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
-                <span>1101100010101001010010001010011010010100100100101010100100111000011010</span>
-                <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
-                <span>1101100010101001010010001010011010010100100100101010100100111000011010</span>
-                <span>1101100010101001010010001010011010010100100100101010100100111000011010</span>
-                <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
-                <span>1101100010101001010010001010011010010100100100101010100100111000011010</span>
-                <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
-                <span>1101100010101001010010001010011010010100100100101010100100111000011010</span>
-        </div>
+
+      <div class=special id=special>
+        <span>1101100010101001010010001010011010010100100100101010100100111000011010</span>
+        <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
+        <span>1101100010101001010010001010011010010100100100101010100100111000011010</span>
+        <span class=fast>1011000101010010100100010100110100101001001001010101001001110000110101</span>
+        <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
+        <span>1101100010101001010010001010011010010100100100101010100100111000011010</span>
+        <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
+        <span>1011000101010010100100010100110100101001001001010101001001110000110100</span>
+        <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
+        <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
+        <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
+        <span>1101100010101001010010001010011010010100100100101010100100111000011010</span>
+        <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
+        <span>1101100010101001010010001010011010010100100100101010100100111000011010</span>
+        <span>1101100010101001010010001010011010010100100100101010100100111000011010</span>
+        <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
+        <span>1101100010101001010010001010011010010100100100101010100100111000011010</span>
+        <span class=fast>1101100010101001010010001010011010010100100100101010100100111000011010</span>
+        <span>1101100010101001010010001010011010010100100100101010100100111000011010</span>
+      </div>
 
     </div>
 
 
 
-  <div class=reading>
-     <div class="title" style="padding-bottom: 2rem;">
-            recommended reading
-        </div>
+    <div class=reading>
+      <div class="title" style="padding-bottom: 2rem;">
+        recommended reading
+      </div>
 
-    <div class=shelf>
-      <div class=shelf-title> books </div>
+      <div class=shelf>
+        <div class=shelf-title> books </div>
         {{ range $.Site.Data.books.entries }}
-            <a target="_blank" href="{{ .link }}"> {{ .title }} </a>
+        <a target="_blank" href="{{ .link }}"> {{ .title }} </a>
         {{ end }}
-    </div>
+      </div>
 
-    <!-- <div class=shelf>
+      <!-- <div class=shelf>
       <div class=shelf-title> papers </div>
         {{ range $.Site.Data.papers.entries }}
             <a target="_blank" href="{{ .link }}"> {{ .title }} </a>
         {{ end }}
     </div> -->
 
-    <div class=shelf>
-      <div class=shelf-title> blogroll </div>
+      <div class=shelf>
+        <div class=shelf-title> blogroll </div>
         {{ range $.Site.Data.blogroll.entries }}
-            <a target="_blank" href="{{ .link }}"> {{ .title }} </a>
+        <a target="_blank" href="{{ .link }}"> {{ .title }} </a>
         {{ end }}
-    </div>
+      </div>
 
-    <!-- <div class=shelf>
+      <!-- <div class=shelf>
       <div class=shelf-title> twitter </div>
        {{ range $.Site.Data.twitter.entries }}
             <a target="_blank" href="{{ .link }}"> {{ .title }} </a>
         {{ end }}
     </div> -->
 
-  </div>
+    </div>
 
 
-<!-- <div class=tall> 
+    <!-- <div class=tall> 
     <div class="title" style="padding-bottom: 2rem;">
         miscellaneous
     </div>
@@ -187,7 +201,7 @@
 
 
 
-  <!-- <div class="manifesto">
+    <!-- <div class="manifesto">
     <h2> Manifesto </h2>
 
     <div class=three-col>
@@ -199,41 +213,41 @@
     </div>
   </div> -->
 
-</div>
+  </div>
 
 
-<footer> Copyright @2023 
-    <div class=footer-right> 
-        <a target="_blank" href="/index.xml"> Follow the RSS feed </a> 
+  <footer> Copyright @2024
+    <div class=footer-right>
+      <a target="_blank" href="/index.xml"> Follow the RSS feed </a>
     </div>
-</footer>
+  </footer>
 
-{{ partial "sidebar.html" .Page }}
+  {{ partial "sidebar.html" .Page }}
 
 
-<script>
+  <script>
 
-  function $(id){
+    function $(id) {
       return document.getElementById(id)
     }
 
-  let bits = $("special").children 
-  for(let ele of bits){
-    ele.addEventListener('click', () => {
+    let bits = $("special").children
+    for (let ele of bits) {
+      ele.addEventListener('click', () => {
         ele.style.opacity = 0
-        setTimeout(() => {ele.style.opacity = 1}, 4000)
-    })
-  }
-
-  function tabTo(tabName){
-    for(let ele of document.getElementsByClassName("tab-content")){
-        ele.style.display = 'none'
+        setTimeout(() => { ele.style.opacity = 1 }, 4000)
+      })
     }
-    $(tabName).style.display = 'inline-block'
-    $("profile-img").src = "/media/" + tabName + ".jpg"
-  }
 
-</script>
+    function tabTo(tabName) {
+      for (let ele of document.getElementsByClassName("tab-content")) {
+        ele.style.display = 'none'
+      }
+      $(tabName).style.display = 'inline-block'
+      $("profile-img").src = "/media/" + tabName + ".jpg"
+    }
+
+  </script>
 
 </body>
 

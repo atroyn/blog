@@ -4,8 +4,6 @@ thumbnail: merovingian_coin.jpg
 featured: true
 ---
 
-# Notes on the Merovingians
-
 > *It is no wonder that by the mid-fifth century an aristocratic Gallo-Roman landowner at the court of the Burgundian king could taunt a Christian holy man who had long predicted the ruin of the Roman Empire by asking him why his predictions had not come true. The Empire as a political reality was indeed gone in Burgundy, but since his own position had not been adversely affected, he had not noticed its demise!*
 >
 > \- Patrick J. Geary, *Before France & Germany*

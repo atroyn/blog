@@ -3,7 +3,7 @@ title: "Projects"
 description: "Things I work on"
 ---
 
-I mainly work on my startup, [Chroma](trychroma.com).
+I mainly work on my startup, [Chroma](https://www.trychroma.com/).
 
 Some other things I made include:
 
