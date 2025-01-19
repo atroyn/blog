@@ -1,5 +1,6 @@
 ---
 title: Telescoping Ambition
+date: 2024-10-06
 thumbnail: larry_age_2.jpeg
 featured: true
 ---
@@ -25,7 +26,7 @@ In SF, the existence of the LARP is a cost of business. Some of the big ideas tu
 
 It’s easy to treat any sufficiently big idea as bullshit on its face. Ordinarily this would be an excellent filter; most big ideas; about civilization, society, technology, whatever you like, *are* bullshit, and should not concern anyone beyond maybe an intellectual exercise. But for an ambitious person, this basic bullshit filter isn’t good enough, because the most important ideas are [big ideas which happen to be *true*](https://genius.com/Peter-thiel-zero-to-one-chapter-8-secrets-annotated). 
 
-I have an engineering education and come from a Slavic background, but also an innate drive to make stuff people want, so naturally I’ve struggled with this tension my entire life. As easy as it is to LARP, it’s even easier to be a cynic; if you just assume everything is bullshit, you’re going to be right almost all of the time. Every well-funded failed startup, every technology that didn’t work out, everything that is ‘obviously nonsense from the start’ is another proof point for that worldview. But being right about these things is both easy and unimportant. Failure is overdetermined. 
+I have an engineering education and come from a Slavic background, but also an innate drive to make stuff people want, so naturally I’ve struggled with this tension my entire life. As easy as it is to LARP, it’s even easier to be a cynic; if you just assume everything is bullshit, you’re going to be right almost all the time. Every well-funded failed startup, every technology that didn’t work out, everything that is ‘obviously nonsense from the start’ is another proof point for that worldview. But being right about these things is both easy and unimportant. Failure is overdetermined. 
 
 ---
 

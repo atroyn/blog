@@ -1,5 +1,6 @@
 ---
 title: Notes on the Merovingians
+date: 2024-12-16
 thumbnail: merovingian_coin.jpg
 featured: true
 ---
