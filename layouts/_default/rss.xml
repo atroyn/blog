@@ -1,11 +1,6 @@
 {{- $pctx := . -}}
 {{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
-{{- $pages := slice -}}
-{{- if or $.IsHome $.IsSection -}}
-    {{- $pages = $pctx.RegularPages -}}
-{{- else -}}
-    {{- $pages = $pctx.Pages -}}
-{{- end -}}
+{{- $pages := where (where .Site.RegularPages "Section" "in" (slice "notes" "essays")) "Kind" "page" -}}
 {{- $limit := .Site.Config.Services.RSS.Limit -}}
 {{- if ge $limit 1 -}}
     {{- $pages = $pages | first $limit -}}
@@ -31,7 +26,7 @@
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid>{{ .Permalink }}</guid>
-      <description><![CDATA[{{ .Content | safeHTML }}]]></description>
+      <description>{{ .Content | plainify | htmlEscape }}</description>
     </item>
     {{ end }}
   </channel>
