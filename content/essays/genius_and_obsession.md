@@ -2,6 +2,7 @@
 title: On Genius, Intellect, and Obsession
 thumbnail: goedel.jpg
 featured: false
+date: 2023-10-01
 ---
 
 Genius, as an intellectual quality, is the ability to come into contact with the transcendent; to go beyond the boundary of merely existing human thought and strike out into the vast quicksilver territory that lies beyond, to catch hold of a shimmering sliver of that place.

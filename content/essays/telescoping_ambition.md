@@ -1,8 +1,8 @@
 ---
 title: Telescoping Ambition
-date: 2024-10-06
 thumbnail: larry_age_2.jpeg
 featured: true
+date: 2024-06-30
 ---
 
 # Telescoping Ambition

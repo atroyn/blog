@@ -1,8 +1,8 @@
 ---
 title: Notes on the Merovingians
-date: 2024-12-16
 thumbnail: merovingian_coin.jpg
 featured: true
+date: 2024-10-06
 ---
 
 > *It is no wonder that by the mid-fifth century an aristocratic Gallo-Roman landowner at the court of the Burgundian king could taunt a Christian holy man who had long predicted the ruin of the Roman Empire by asking him why his predictions had not come true. The Empire as a political reality was indeed gone in Burgundy, but since his own position had not been adversely affected, he had not noticed its demise!*

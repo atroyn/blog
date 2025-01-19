@@ -2,6 +2,7 @@
 title: What It Feels Like To Get Stronger
 thumbnail: atlas.jpg
 featured: true
+date: 2023-12-17
 ---
 
 > Friends may come and go, but two hundred pounds is always two hundred pounds.
