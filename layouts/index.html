@@ -114,7 +114,7 @@
             <td> {{ $index }} </td>
             <td> <a href="{{ .Permalink }}"> {{ .Title }} </a> </td>
             <td> {{ .WordCount }} </td>
-            <td> {{.Date | time.Format ":date_short" }}
+            <td> {{ dateFormat "Jan 2, 2006" .Date }} </td>
           </tr>
           {{ end }}
         </table>
