@@ -1,8 +1,8 @@
+baseURL = "https://troynikov.io"
 title = "ANTON"
 languageCode = "en-us"
 
 [params]
-relativeURLs = true
 contentdir = "content"
 subscriptionLink = "https://mailchimp.com/your-email-capture-link"
 
@@ -16,4 +16,3 @@ subscriptionLink = "https://mailchimp.com/your-email-capture-link"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
