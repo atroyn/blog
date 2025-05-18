@@ -11,7 +11,9 @@ date: 2025-05-18
 >
 > \- 2 Corinthians 12:9-10
 > 
+
 &nbsp;
+
 > *Enter through the narrow gate. For wide is the gate and broad is the road that leads to destruction, and many enter through it. But small is the gate and narrow the road that leads to life, and only a few find it.*
 >
 > \- Matthew 7:13-14
