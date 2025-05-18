@@ -73,7 +73,7 @@ High-trust societies created institutions and social relations which acted to co
 
 The reaction to the excesses of the Antichrist’s social order have begun throughout the West. Though borne of this same social order, the character and eventual outcome of the reaction is yet to be fully determined. It may be more of the same, in different garb. It may be worse. 
 
-We are perhaps bearing witness to the synthesis of mimesis as a Hegelian dialectic between violence and victimhood. If history can be divided into eras according to the mimetic character of violence, then we have passed through the first, in which mimetic desire and revenge created the scapegoating mechanism; the second, in which the scapegoat was inverted from victim to victor, and are now entering a third. What can we expect of it? 
+We are perhaps bearing witness to the synthesis of mimesis as a dialectic between violence and victimhood. If history can be divided into eras according to the mimetic character of violence, then we have passed through the first, in which mimetic desire and revenge created the scapegoating mechanism; the second, in which the scapegoat was inverted from victim to victor, and are now entering a third. What can we expect of it? 
 
 Two paths are possible. The first is a return to the first era, and a final rejection of the Christian relationship to sacrificial violence. This would be a regression to the mean, since the first era represents by far the longest span of human history, and is therefore perhaps the default outcome. Mimetic spirals, scapegoats, and sacrifice are the norm - it’s our world which is the exception. 
 
